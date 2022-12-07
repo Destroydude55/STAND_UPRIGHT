@@ -1,4 +1,4 @@
-local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/mixserrm999/UI-DISCORD/main/ui-discord.txt?token=GHSAT0AAAAAAB4DGB64ROOXGMQQA4NJ3HTUY4QMFNA")()
+local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/mixserrm999/UI-DISCORD/main/ui-discord.txt")()
 
 local win = DiscordLib:Window("TBMODS UI")
 
