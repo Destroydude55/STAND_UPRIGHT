@@ -4,11 +4,11 @@ local win = DiscordLib:Window("TBMODS UI")
 
 local serv = win:Server("Preview", "")
 
-local btns = serv:Channel("Buttons")
+local btns = serv:Channel("กดเข้ามา")
 
-btns:Button("inf jump", function()
-loadstring(game:HttpGet("https://pastebin.com/raw/WweihvrM"))()
-DiscordLib:Notification("Notification", "inf jump", "Okay!")
+btns:Button("ออโต้สุ่ม", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/rubicmaster/my_scripts/main/LegendaryFarm"))()
+DiscordLib:Notification("Notification", "ออโต้สุ่ม", "Okay!")
 end)
 
 btns:Seperator()
